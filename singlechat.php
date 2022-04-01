@@ -8,10 +8,8 @@
     <h2 id="chatName"></h2>
   </div>
   
+  <div id="chat-box"></div>
 
-  <div id="chat-box" class="">
-
-  </div>
   <div id="type-area">
     <form id="messageForm" action="#">
       <input type="text" name="senderId" value="<?php echo $_SESSION['id']; ?>" style="display: none;">
