@@ -141,9 +141,44 @@
   color: black;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+/* ---SIGNUP FORM CSS */
 
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-style: solid;
+  border-width: 5px;
+  height: 65vh;
+  width: 50%;
+  padding: 2%;
+}
+
+.formBtn {
+  width: 25%;
+  height: 5vh;
+}
+
+.aTag {
+  margin-top: 3%;
+}
+
+/* ---LOGIN FORM CSS--- */
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  border-style: solid;
+  border-width: 5px;
+  height: 45vh;
+  width: 50%;
+  padding: 2%;
+}
+
+/* ---MOBILE CSS--- */
+
+@media only screen and (max-width: 768px) {
   /* Single Chat */
   #type-area {
     width: 100%;
@@ -190,5 +225,20 @@
 
   #convoHTwo {
     color: white;
+  }
+
+  /* Signup Form */
+
+  #signupForm {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  /* Login Form */
+  #loginForm {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
   }
 }
