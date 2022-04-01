@@ -5,7 +5,7 @@
 <body class="bod">
   <div id="convoHead">
     <button class="mr-5" onclick="location.href='includes/logout.inc.php'">Logout</button>
-    <h2 >Your Conversations</h2>
+    <h2 id="convoHTwo" >Your Convos</h2>
   </div>
   
   <div id="userListDiv">
