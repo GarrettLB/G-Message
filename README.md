@@ -19,5 +19,3 @@ G-Message is a real-time messaging application. Create an account, search for a 
 * HTML
 
 Application deployed live here: https://gmessager.herokuapp.com/
-
-Screenshot:  
